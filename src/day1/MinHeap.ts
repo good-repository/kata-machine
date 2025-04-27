@@ -55,8 +55,6 @@ export default class MinHeap {
         return Math.floor((idx - 1) / 2);
     }
 
-
-
     insert(value: number): void {
         this.data[this.length] = value;
         this.length++;
